@@ -13,6 +13,7 @@
 		D76987671D1686D000CDA17F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76987661D1686D000CDA17F /* Images.xcassets */; };
 		D769876A1D1686D000CDA17F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76987681D1686D000CDA17F /* LaunchScreen.xib */; };
 		D76987761D1686D000CDA17F /* HelloGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76987751D1686D000CDA17F /* HelloGitHubTests.swift */; };
+		D76987801D168B4300CDA17F /* HelloGitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769877F1D168B4300CDA17F /* HelloGitHub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D769876F1D1686D000CDA17F /* HelloGitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76987741D1686D000CDA17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D76987751D1686D000CDA17F /* HelloGitHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloGitHubTests.swift; sourceTree = "<group>"; };
+		D769877F1D168B4300CDA17F /* HelloGitHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloGitHub.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D769875C1D1686D000CDA17F /* HelloGitHub */ = {
 			isa = PBXGroup;
 			children = (
+				D769877F1D168B4300CDA17F /* HelloGitHub.swift */,
 				D769875F1D1686D000CDA17F /* AppDelegate.swift */,
 				D76987611D1686D000CDA17F /* ViewController.swift */,
 				D76987631D1686D000CDA17F /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76987801D168B4300CDA17F /* HelloGitHub.swift in Sources */,
 				D76987621D1686D000CDA17F /* ViewController.swift in Sources */,
 				D76987601D1686D000CDA17F /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				D769877B1D1686D000CDA17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D769877C1D1686D000CDA17F /* Build configuration list for PBXNativeTarget "HelloGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				D769877E1D1686D000CDA17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
